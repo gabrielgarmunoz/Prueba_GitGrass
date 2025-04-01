@@ -5,14 +5,13 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="7">
+      <items count="6">
         <item name="Description" type_name="gh_string" type_code="10">Contains a collection of integer numbers</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">93f5a718-0a1e-4f49-be68-76e058aec4f2</item>
         <item name="Name" type_name="gh_string" type_code="10">Integer</item>
         <item name="NickName" type_name="gh_string" type_code="10">TOPOLOGIA</item>
         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-        <item name="Source" index="0" type_name="gh_guid" type_code="9">87f97655-950f-439c-a37d-d9303777c5c7</item>
-        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
       </items>
       <chunks count="2">
         <chunk name="Attributes">
