@@ -1,0 +1,100 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312</item>
+    <item name="Name" type_name="gh_string" type_code="10">Number</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of floating point numbers</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">00f46d7a-d019-41d8-bf0c-c9afdf8d40cb</item>
+        <item name="Name" type_name="gh_string" type_code="10">Number</item>
+        <item name="NickName" type_name="gh_string" type_code="10">pExt</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">206f02a4-d397-448e-aa5e-1076dbeaed7b</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>9963</X>
+              <Y>-3247</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>9988.806</X>
+              <Y>-3236.194</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">10</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="10">
+                <chunk name="Item" index="0">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">46.44</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">49.483199999999954</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="2">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">21.715200000000024</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="3">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">55.616647226688841</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="4">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">33.3102752291615</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="5">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">51.783721048813845</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="6">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">71.679641478296816</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="7">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">19.094399999999947</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="8">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">48.383999999999986</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="9">
+                  <items count="1">
+                    <item name="number" type_name="gh_double" type_code="6">34.333199999999962</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

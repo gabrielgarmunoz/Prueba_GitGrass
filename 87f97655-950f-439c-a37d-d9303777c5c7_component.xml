@@ -21,16 +21,16 @@
           <items count="5">
             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
               <X>-3671</X>
-              <Y>1181</Y>
+              <Y>1227</Y>
               <W>144</W>
-              <H>100</H>
+              <H>54</H>
             </item>
             <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
             <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
             <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
               <X>-3670.269</X>
-              <Y>1181.832</Y>
+              <Y>1227.386</Y>
             </item>
           </items>
         </chunk>

@@ -1,0 +1,32 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="15">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;255</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">bcfb5f70-0a79-4f7d-8531-cb3d60f8045d</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">334a900a-0a48-4e66-8123-4fb4920bb43d</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">f735a69a-949e-4fdb-add9-f1dde660c2e6</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">9437ef1a-7e84-4514-bb99-3d61a41a75e7</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">e1c8b84c-56fd-409d-b26e-93d45fe78c25</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">8dc02aac-7f88-4f07-9fcb-20aac7573f55</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">275885a9-9cfb-4a18-a0b5-2d1f25050ca5</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">2e086652-febf-4732-adf7-e0fba938d7bd</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">8</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b3a1211f-c119-430f-9b2e-d2b8f1c9fd7f</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Calculo del área a cada vivienda</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
