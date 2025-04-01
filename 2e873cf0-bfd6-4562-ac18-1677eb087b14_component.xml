@@ -1,0 +1,161 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">80e55fc2-933b-4bfb-a353-12358786dba8</item>
+    <item name="Name" type_name="gh_string" type_code="10">Offset Loose</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Offset the control-points of a curve with a specified distance.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">2e873cf0-bfd6-4562-ac18-1677eb087b14</item>
+        <item name="Name" type_name="gh_string" type_code="10">Offset Loose</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Offset (L)</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7440</X>
+              <Y>2510</Y>
+              <W>82</W>
+              <H>75</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7488</X>
+              <Y>2548</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to offset</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">31448cb0-e7ee-4ccc-9442-e3c4c9696cd5</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">411301ff-60c8-4040-8157-d43afd12fb9b</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7442</X>
+                  <Y>2512</Y>
+                  <W>31</W>
+                  <H>23</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7467</X>
+                  <Y>2523.833</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Offset distance</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a2729d72-a706-485d-b6a7-e63b79acb3e8</item>
+            <item name="Name" type_name="gh_string" type_code="10">Distance</item>
+            <item name="NickName" type_name="gh_string" type_code="10">D</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">44c4055f-5421-426f-8e0e-0f60ce8dc92e</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7442</X>
+                  <Y>2535</Y>
+                  <W>31</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7467</X>
+                  <Y>2547.5</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">-0.04</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Optional Plane for offset operation</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">358d670e-4ec1-4b68-aed0-5a2ac77b2eac</item>
+            <item name="Name" type_name="gh_string" type_code="10">Plane</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">9f0f7ae6-c5fb-4aae-983a-a2aced0bce71</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7442</X>
+                  <Y>2559</Y>
+                  <W>31</W>
+                  <H>24</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7467</X>
+                  <Y>2571.167</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Resulting offset</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c300d83b-e6c3-41f8-b7f0-722386935a3f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7503</X>
+                  <Y>2512</Y>
+                  <W>17</W>
+                  <H>71</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7511.5</X>
+                  <Y>2547.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

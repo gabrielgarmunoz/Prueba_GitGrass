@@ -1,0 +1,141 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">99bee19d-588c-41a0-b9b9-1d00fb03ea1a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Tree Statistics</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Get some statistics regarding a data tree.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b133b83f-7f32-43c9-b177-2c330e0cd8b6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Tree Statistics</item>
+        <item name="NickName" type_name="gh_string" type_code="10">TStat</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>5795</X>
+              <Y>2028</Y>
+              <W>64</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>5825</X>
+              <Y>2060</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Data Tree to analyze</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">348372c1-b58c-4b3b-8630-abd7a5c0c6dc</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tree</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">af317834-2303-43e7-8931-d4c646ceb705</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5797</X>
+                  <Y>2030</Y>
+                  <W>13</W>
+                  <H>60</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5805</X>
+                  <Y>2060</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">All the paths of the tree</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">381f22f2-1f1f-41e0-a883-9cfeab84881c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Paths</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5840</X>
+                  <Y>2030</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5848.5</X>
+                  <Y>2040</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">The length of each branch in the tree</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7a752cc5-30e5-4e6d-a9f8-d440df05cee7</item>
+            <item name="Name" type_name="gh_string" type_code="10">Length</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5840</X>
+                  <Y>2050</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5848.5</X>
+                  <Y>2060</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Number of paths and branches in the tree</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e0a0feaa-ecaf-4c08-b0d8-1a208a31216b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Count</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5840</X>
+                  <Y>2070</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5848.5</X>
+                  <Y>2080</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

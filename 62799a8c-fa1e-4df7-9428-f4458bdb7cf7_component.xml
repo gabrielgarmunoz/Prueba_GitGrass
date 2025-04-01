@@ -1,0 +1,125 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2013e425-8713-42e2-a661-b57e78840337</item>
+    <item name="Name" type_name="gh_string" type_code="10">Concatenate</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Concatenate some fragments of text</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">62799a8c-fa1e-4df7-9428-f4458bdb7cf7</item>
+        <item name="Name" type_name="gh_string" type_code="10">Concatenate</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Concat</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>8215</X>
+              <Y>4477</Y>
+              <W>81</W>
+              <H>59</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>8246</X>
+              <Y>4507</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="5">
+            <item name="InputCount" type_name="gh_int32" type_code="3">2</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+            <item name="InputId" index="1" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+          </items>
+          <chunks count="3">
+            <chunk name="InputParam" index="0">
+              <items count="7">
+                <item name="Description" type_name="gh_string" type_code="10">First text fragment</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">fc697438-a4c4-4623-9dc9-5f94b288adbb</item>
+                <item name="Name" type_name="gh_string" type_code="10">Fragment A</item>
+                <item name="NickName" type_name="gh_string" type_code="10">A</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">b3eac90c-ebe8-4e7e-b7d8-e5e3ecb16614</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>8217</X>
+                      <Y>4479</Y>
+                      <W>14</W>
+                      <H>27</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>8225.5</X>
+                      <Y>4492.75</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="1">
+              <items count="7">
+                <item name="Description" type_name="gh_string" type_code="10">Second text fragment</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">31465c2d-7294-4998-9115-ab9a86dd14d9</item>
+                <item name="Name" type_name="gh_string" type_code="10">Fragment B</item>
+                <item name="NickName" type_name="gh_string" type_code="10">B</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">ac77a4da-e07d-4e00-8b42-70bf5531880a</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>8217</X>
+                      <Y>4506</Y>
+                      <W>14</W>
+                      <H>28</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>8225.5</X>
+                      <Y>4520.25</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="0">
+              <items count="7">
+                <item name="Description" type_name="gh_string" type_code="10">Resulting text consisting of all the fragments</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">24516ef5-2459-4fbd-b8d3-3d25c4bb203a</item>
+                <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+                <item name="Name" type_name="gh_string" type_code="10">Result</item>
+                <item name="NickName" type_name="gh_string" type_code="10">R</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>8261</X>
+                      <Y>4479</Y>
+                      <W>33</W>
+                      <H>55</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>8269.5</X>
+                      <Y>4506.5</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

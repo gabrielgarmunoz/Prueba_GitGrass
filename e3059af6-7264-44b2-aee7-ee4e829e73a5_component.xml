@@ -1,0 +1,112 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2e205f24-9279-47b2-b414-d06dcd0b21a7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Area</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Solve area properties for breps, meshes and planar closed curves.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e3059af6-7264-44b2-aee7-ee4e829e73a5</item>
+        <item name="Name" type_name="gh_string" type_code="10">Area</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Area</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7176</X>
+              <Y>4542</Y>
+              <W>66</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7208</X>
+              <Y>4564</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Brep, mesh or planar closed curve for area computation</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">222f3123-53cf-4d82-aa0c-aab3a9706386</item>
+            <item name="Name" type_name="gh_string" type_code="10">Geometry</item>
+            <item name="NickName" type_name="gh_string" type_code="10">G</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">ee54dc6e-e6ae-47cf-9ffd-08b1afb254c4</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7178</X>
+                  <Y>4544</Y>
+                  <W>15</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7187</X>
+                  <Y>4564</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Area of geometry</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">69bf53b1-b5f3-463c-a6c2-a20d0bbf515f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Area</item>
+            <item name="NickName" type_name="gh_string" type_code="10">A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7223</X>
+                  <Y>4544</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7231.5</X>
+                  <Y>4554</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Area centroid of geometry</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9299823f-1d83-4a40-a228-e46f3db15aa6</item>
+            <item name="Name" type_name="gh_string" type_code="10">Centroid</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7223</X>
+                  <Y>4564</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7231.5</X>
+                  <Y>4574</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,189 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c9785b8e-2f30-4f90-8ee3-cca710f82402</item>
+    <item name="Name" type_name="gh_string" type_code="10">Entwine</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Flatten and combine a collection of data streams</item>
+        <item name="FlattenInputs" type_name="gh_bool" type_code="1">true</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0577ce09-f33e-44d0-b748-4621453f1753</item>
+        <item name="Name" type_name="gh_string" type_code="10">Entwine</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Entwine</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>18786</X>
+              <Y>1884</Y>
+              <W>79</W>
+              <H>84</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>18831</X>
+              <Y>1926</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="7">
+            <item name="InputCount" type_name="gh_int32" type_code="3">4</item>
+            <item name="InputId" index="0" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+            <item name="InputId" index="1" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+            <item name="InputId" index="2" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+            <item name="InputId" index="3" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+          </items>
+          <chunks count="5">
+            <chunk name="InputParam" index="0">
+              <items count="9">
+                <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                <item name="Description" type_name="gh_string" type_code="10">Data to entwine</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">cbb2dff6-bc72-4bff-995e-703fb1dca0a6</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Branch {0;0}</item>
+                <item name="NickName" type_name="gh_string" type_code="10">{0;0}</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">3c290cd9-6b30-49e7-af86-d9d6a07b8f8c</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>18788</X>
+                      <Y>1886</Y>
+                      <W>28</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>18803.5</X>
+                      <Y>1896</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="1">
+              <items count="9">
+                <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                <item name="Description" type_name="gh_string" type_code="10">Data to entwine</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">83366236-f4b5-4b2a-b298-ddb15c85d3a9</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Branch {0;1}</item>
+                <item name="NickName" type_name="gh_string" type_code="10">{0;1}</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">2a92f446-bc37-4754-b5a6-9adb900f998a</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>18788</X>
+                      <Y>1906</Y>
+                      <W>28</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>18803.5</X>
+                      <Y>1916</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="2">
+              <items count="9">
+                <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                <item name="Description" type_name="gh_string" type_code="10">Data to entwine</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">a2428b7c-6920-47fe-8975-5b6b82cc90d0</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Branch {0;2}</item>
+                <item name="NickName" type_name="gh_string" type_code="10">{0;2}</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">41eabbdc-bc4e-4438-ab60-747c753be064</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>18788</X>
+                      <Y>1926</Y>
+                      <W>28</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>18803.5</X>
+                      <Y>1936</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="InputParam" index="3">
+              <items count="9">
+                <item name="Access" type_name="gh_int32" type_code="3">2</item>
+                <item name="Description" type_name="gh_string" type_code="10">Data to entwine</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">1bd13cf1-4b4c-42dd-a0a1-7d00350137fd</item>
+                <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
+                <item name="Name" type_name="gh_string" type_code="10">Branch {0;3}</item>
+                <item name="NickName" type_name="gh_string" type_code="10">{0;3}</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+                <item name="Source" index="0" type_name="gh_guid" type_code="9">87e8b242-c4a1-4a4d-9bd6-ad633553071e</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>18788</X>
+                      <Y>1946</Y>
+                      <W>28</W>
+                      <H>20</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>18803.5</X>
+                      <Y>1956</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="OutputParam" index="0">
+              <items count="6">
+                <item name="Description" type_name="gh_string" type_code="10">Entwined result</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">0161b27d-ae5c-4254-95e5-a14836d666bb</item>
+                <item name="Name" type_name="gh_string" type_code="10">Result</item>
+                <item name="NickName" type_name="gh_string" type_code="10">R</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>18846</X>
+                      <Y>1886</Y>
+                      <W>17</W>
+                      <H>80</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>18854.5</X>
+                      <Y>1926</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

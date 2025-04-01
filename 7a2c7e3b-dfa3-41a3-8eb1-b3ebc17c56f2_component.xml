@@ -1,0 +1,145 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">d8b1e7ac-cd31-4748-b262-e07e53068afc</item>
+    <item name="Name" type_name="gh_string" type_code="10">Split Tree</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Split a data tree into two parts using path masks.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">7a2c7e3b-dfa3-41a3-8eb1-b3ebc17c56f2</item>
+        <item name="Name" type_name="gh_string" type_code="10">Split Tree</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Split</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-1395</X>
+              <Y>983</Y>
+              <W>85</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-1345</X>
+              <Y>1005</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Tree to split</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">90546e61-accf-47dd-9af3-9927730c0a8e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Data</item>
+            <item name="NickName" type_name="gh_string" type_code="10">D</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">0095df12-dc99-4582-a1e3-d50966243983</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-1393</X>
+                  <Y>985</Y>
+                  <W>33</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-1367</X>
+                  <Y>995</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="9">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Splitting masks</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d51e42f7-d77c-4623-a2cb-724ab487e5f3</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Masks</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">ff419570-0be5-41a9-98bc-0e3cd0da3e29</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-1393</X>
+                  <Y>1005</Y>
+                  <W>33</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-1367</X>
+                  <Y>1015</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Positive set of data (all branches that match any of the masks)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">cf9c2b93-672b-4fdd-b6cf-929e37cce6db</item>
+            <item name="Name" type_name="gh_string" type_code="10">Positive</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-1330</X>
+                  <Y>985</Y>
+                  <W>18</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-1321</X>
+                  <Y>995</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Negative set of data (all branches that do not match any of the masks</item>
+            <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">eccbde16-c543-4d34-914d-1b06abb96d46</item>
+            <item name="Name" type_name="gh_string" type_code="10">Negative</item>
+            <item name="NickName" type_name="gh_string" type_code="10">N</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-1330</X>
+                  <Y>1005</Y>
+                  <W>18</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-1321</X>
+                  <Y>1015</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

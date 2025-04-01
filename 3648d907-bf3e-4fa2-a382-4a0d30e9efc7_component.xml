@@ -1,0 +1,114 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2c56ab33-c7cc-4129-886c-d5856b714010</item>
+    <item name="Name" type_name="gh_string" type_code="10">Subtraction</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Mathematical subtraction</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">3648d907-bf3e-4fa2-a382-4a0d30e9efc7</item>
+        <item name="Name" type_name="gh_string" type_code="10">Subtraction</item>
+        <item name="NickName" type_name="gh_string" type_code="10">A-B</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7286</X>
+              <Y>4146</Y>
+              <W>81</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7317</X>
+              <Y>4168</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Item to subtract from (minuend)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">411047d9-248a-4588-bcc8-ec59cbbed4ae</item>
+            <item name="Name" type_name="gh_string" type_code="10">A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">33d3d8e1-e919-4b64-af8e-df9143c2253f</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7288</X>
+                  <Y>4148</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7296.5</X>
+                  <Y>4158</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Item to subtract (subtrahend)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">fa9234a6-72c4-4bc8-8130-26ab48852322</item>
+            <item name="Name" type_name="gh_string" type_code="10">B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">d2b5d92f-efa3-47c3-8ecd-26751356ec41</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7288</X>
+                  <Y>4168</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7296.5</X>
+                  <Y>4178</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The result of the Subtraction</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">92f95c34-4bfc-4612-a0f7-134561d4153f</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7332</X>
+                  <Y>4148</Y>
+                  <W>33</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7340.5</X>
+                  <Y>4168</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

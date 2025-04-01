@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="18">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>159;0;255;0</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">1a2d07a2-a188-4452-aa7f-9d4762990430</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">80fbaadf-2b60-41fe-a129-c1c116d968f4</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">8c84fb6b-3913-4b53-a84b-b13881f02b27</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">348bb6c3-95f9-4b53-85ea-5ea25f7add91</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">0ee8ecf4-bcfc-4d2f-a59a-1e9729a79b4b</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">68359453-adf1-4aa8-ba5d-8095bb60cca1</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">471991c9-d5b5-4d9b-a135-3d813a135561</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">75407fb6-87ff-4cfb-8678-e05f40b4cb42</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">b55a7b48-4874-42f1-a0d1-d9e78a10e1a2</item>
+        <item name="ID" index="9" type_name="gh_guid" type_code="9">d96f78a7-81fe-428d-a915-44d93e5b742e</item>
+        <item name="ID" index="10" type_name="gh_guid" type_code="9">e2e14c64-8738-4ddc-aee9-76d5e691d9e3</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">11</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">903d9f1b-9606-45e5-a4f8-718935fc1871</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">GENERA POLILINEAS A PARTIR DE PUNTOS</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

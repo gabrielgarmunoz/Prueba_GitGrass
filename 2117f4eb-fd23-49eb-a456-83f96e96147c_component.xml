@@ -1,0 +1,113 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">04887d01-504c-480e-b2a2-01ea19cc5922</item>
+    <item name="Name" type_name="gh_string" type_code="10">Text Split</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="4">
+        <item name="Description" type_name="gh_string" type_code="10">Split some text into fragments using separators</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">2117f4eb-fd23-49eb-a456-83f96e96147c</item>
+        <item name="Name" type_name="gh_string" type_code="10">Text Split</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Split</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-2772</X>
+              <Y>1610</Y>
+              <W>65</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-2741</X>
+              <Y>1632</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Text to split.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d2ca9742-5e1e-41a4-a46c-f7329f451e56</item>
+            <item name="Name" type_name="gh_string" type_code="10">Text</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">8fcb0552-d2d2-4083-a2cb-01ebf7d1e529</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-2770</X>
+                  <Y>1612</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-2761.5</X>
+                  <Y>1622</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Separator characters.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c4769148-eb0b-4ab0-909a-7be5b023a886</item>
+            <item name="Name" type_name="gh_string" type_code="10">Separators</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">0b0cc97f-6c9e-4f8d-b633-cac680033ae4</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-2770</X>
+                  <Y>1632</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-2761.5</X>
+                  <Y>1642</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Resulting text fragments</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ad42bd2d-cd01-4c04-b00d-419fa19ab76a</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-2726</X>
+                  <Y>1612</Y>
+                  <W>17</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-2717.5</X>
+                  <Y>1632</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

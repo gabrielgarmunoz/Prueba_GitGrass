@@ -1,0 +1,165 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">b464fccb-50e7-41bd-9789-8438db9bea9f</item>
+    <item name="Name" type_name="gh_string" type_code="10">Angle</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Compute the angle between two vectors.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">3cf98e36-604c-431c-966a-c193b84ab870</item>
+        <item name="Name" type_name="gh_string" type_code="10">Angle</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Angle</item>
+      </items>
+      <chunks count="6">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>8714</X>
+              <Y>-3595</Y>
+              <W>65</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>8745</X>
+              <Y>-3563</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">First vector</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ccb26421-96e6-428e-a13f-b25e9986623d</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vector A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">35105ffc-24e2-42bf-ae5f-7fa8ddc60e37</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8716</X>
+                  <Y>-3593</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8724.5</X>
+                  <Y>-3583</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Second vector</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">de63e799-9704-4e54-a80c-4b62ab5a00bf</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vector B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">fc185fd6-ceaa-4dff-862d-a791d3253e8d</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8716</X>
+                  <Y>-3573</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8724.5</X>
+                  <Y>-3563</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Optional plane for 2D angle</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">40e39830-679a-4b72-a9d3-3e05aeec0971</item>
+            <item name="Name" type_name="gh_string" type_code="10">Plane</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8716</X>
+                  <Y>-3553</Y>
+                  <W>14</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8724.5</X>
+                  <Y>-3543</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Angle (in radians) between vectors</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bb02cfb4-2f9c-4a95-a532-45b7cc5fa3cc</item>
+            <item name="Name" type_name="gh_string" type_code="10">Angle</item>
+            <item name="NickName" type_name="gh_string" type_code="10">A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8760</X>
+                  <Y>-3593</Y>
+                  <W>17</W>
+                  <H>30</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8768.5</X>
+                  <Y>-3578</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Reflex angle (in radians) between vectors</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">16554a28-bdbe-4bf1-a40b-950f48009676</item>
+            <item name="Name" type_name="gh_string" type_code="10">Reflex</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8760</X>
+                  <Y>-3563</Y>
+                  <W>17</W>
+                  <H>30</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8768.5</X>
+                  <Y>-3548</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">16ef3e75-e315-4899-b531-d3166b42dac9</item>
+    <item name="Name" type_name="gh_string" type_code="10">Vector</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of three-dimensional vectors</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">f6da00f2-b483-448d-b391-113a3a270656</item>
+        <item name="Name" type_name="gh_string" type_code="10">Vector</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Vec</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">181669ec-6579-4bce-b084-900d6631f614</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>13039</X>
+              <Y>3481</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>13064.47</X>
+              <Y>3491.298</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

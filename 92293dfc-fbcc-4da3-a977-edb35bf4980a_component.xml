@@ -1,0 +1,28 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="11">
+        <item name="Border" type_name="gh_int32" type_code="3">5</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;0</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">de28ad8a-0671-4b06-86b7-79486de3b6da</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">fefbb7a6-857e-469c-b372-7b7900bde751</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">c9a85483-15de-482c-9d0d-12ebce348c56</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">3b64240e-3cd9-4729-85a8-8b777cce58c8</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">4</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">92293dfc-fbcc-4da3-a977-edb35bf4980a</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10"></item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,139 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">22990b1f-9be6-477c-ad89-f775cd347105</item>
+    <item name="Name" type_name="gh_string" type_code="10">Flip Curve</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Flip a curve using an optional guide curve.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">bce6e8c9-a1dc-4f30-bf85-37c0898485b0</item>
+        <item name="Name" type_name="gh_string" type_code="10">Flip Curve</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Flip</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>10470</X>
+              <Y>-192</Y>
+              <W>66</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>10502</X>
+              <Y>-170</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to flip</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5c8ba95e-3ef9-467a-9763-408696151804</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">2e93dda2-d0d1-46e7-b373-2dfa117065a2</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10472</X>
+                  <Y>-190</Y>
+                  <W>15</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10481</X>
+                  <Y>-180</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Optional guide curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">98397452-53ed-4457-9bb8-3edcc9653608</item>
+            <item name="Name" type_name="gh_string" type_code="10">Guide</item>
+            <item name="NickName" type_name="gh_string" type_code="10">G</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">72a6e098-1fe7-4243-a6ab-1d926d58c167</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10472</X>
+                  <Y>-170</Y>
+                  <W>15</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10481</X>
+                  <Y>-160</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Flipped curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bab5d6ab-f0e6-4847-9778-efdcb1ee9dee</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10517</X>
+                  <Y>-190</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10525.5</X>
+                  <Y>-180</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Flip action</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5e0baf68-a7a6-406e-a6ad-573b188443f3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Flag</item>
+            <item name="NickName" type_name="gh_string" type_code="10">F</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10517</X>
+                  <Y>-170</Y>
+                  <W>17</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10525.5</X>
+                  <Y>-160</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

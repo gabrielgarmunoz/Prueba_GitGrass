@@ -1,0 +1,160 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">afb96615-c59a-45c9-9cac-e27acb1c7ca0</item>
+    <item name="Name" type_name="gh_string" type_code="10">Explode</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Explode a curve into smaller segments.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">2dc470c2-0b55-4e02-b2b6-eb6e198ff082</item>
+        <item name="Name" type_name="gh_string" type_code="10">Explode</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Explode</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>17923</X>
+              <Y>2098</Y>
+              <W>65</W>
+              <H>66</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>17954</X>
+              <Y>2131</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to explode</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">759c3e96-36d4-4a51-ae8c-4bd71122eb60</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">370c121d-5e84-4551-a35f-82bded1f3570</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17925</X>
+                  <Y>2100</Y>
+                  <W>14</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17933.5</X>
+                  <Y>2115.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Recursive decomposition until all segments are atomic</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">67eff3a5-1abd-41be-ac1f-ba0ddc8762cb</item>
+            <item name="Name" type_name="gh_string" type_code="10">Recursive</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17925</X>
+                  <Y>2131</Y>
+                  <W>14</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17933.5</X>
+                  <Y>2146.5</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Exploded segments that make up the base curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d2c522a6-ed22-46d1-b60f-5bdd489f92a0</item>
+            <item name="Name" type_name="gh_string" type_code="10">Segments</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17969</X>
+                  <Y>2100</Y>
+                  <W>17</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17977.5</X>
+                  <Y>2115.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Vertices of the exploded segments</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b78fc1d7-0bfd-425e-843c-f4a0db4b9f0c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vertices</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17969</X>
+                  <Y>2131</Y>
+                  <W>17</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17977.5</X>
+                  <Y>2146.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

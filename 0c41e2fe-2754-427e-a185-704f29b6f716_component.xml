@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="18">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;0</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">af6206a8-64ec-4ffa-835e-aa26ddcc6d1a</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">2fe7fc27-15c3-4c26-9198-d98f432f6a9d</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">980dff49-6732-40eb-873d-0ae7bd3bae8a</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">34296316-08cc-4444-848b-6fddc37f0dcf</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">475036b6-89b5-49c1-acff-c5ac715dd665</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">b4f31304-333a-4aec-b460-40064f2f7082</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">5bb39796-c1ea-4d48-b169-0552fdf77327</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">30d31f88-044f-4ada-8b54-45523f9aee3f</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">3be556b5-affe-4fa7-a651-e1baac3dd921</item>
+        <item name="ID" index="9" type_name="gh_guid" type_code="9">421997ca-51b0-4bd8-8730-a1ec8185d5b0</item>
+        <item name="ID" index="10" type_name="gh_guid" type_code="9">a5e206c7-135d-4b20-accf-40167129ce8a</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">11</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0c41e2fe-2754-427e-a185-704f29b6f716</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Generación de pExt</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

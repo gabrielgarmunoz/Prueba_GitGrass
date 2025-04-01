@@ -1,0 +1,162 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">f3230ecb-3631-4d6f-86f2-ef4b2ed37f45</item>
+    <item name="Name" type_name="gh_string" type_code="10">Replace Nulls</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Replace nulls or invalid data with other data</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">ec9483fa-f3b9-4756-b1a2-3fc65c34f628</item>
+        <item name="Name" type_name="gh_string" type_code="10">Replace Nulls</item>
+        <item name="NickName" type_name="gh_string" type_code="10">NullRep</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>3424</X>
+              <Y>1062</Y>
+              <W>66</W>
+              <H>66</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>3455</X>
+              <Y>1095</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Items to test for null</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b38e47ab-be94-4963-9e59-a4eaa227772a</item>
+            <item name="Name" type_name="gh_string" type_code="10">Items</item>
+            <item name="NickName" type_name="gh_string" type_code="10">I</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">487235f8-db82-480d-9091-1bf37f55463e</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>3426</X>
+                  <Y>1064</Y>
+                  <W>14</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>3434.5</X>
+                  <Y>1079.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Items to replace nulls with</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7efa868c-a81b-411d-b999-4784c6c33fb0</item>
+            <item name="Name" type_name="gh_string" type_code="10">Replacements</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>3426</X>
+                  <Y>1095</Y>
+                  <W>14</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>3434.5</X>
+                  <Y>1110.5</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="2">
+                        <item name="TypeName" type_name="gh_string" type_code="10">Grasshopper.Kernel.Types.GH_Integer</item>
+                        <item name="number" type_name="gh_int32" type_code="3">0</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">List without any nulls</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">83080a5f-3482-41e3-a961-95a1e76c5660</item>
+            <item name="Name" type_name="gh_string" type_code="10">Items</item>
+            <item name="NickName" type_name="gh_string" type_code="10">I</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>3470</X>
+                  <Y>1064</Y>
+                  <W>18</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>3479</X>
+                  <Y>1079.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Number of items replaced</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9ccf47a3-04db-40e9-8c90-a1efa0bafc16</item>
+            <item name="Name" type_name="gh_string" type_code="10">Count</item>
+            <item name="NickName" type_name="gh_string" type_code="10">N</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>3470</X>
+                  <Y>1095</Y>
+                  <W>18</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>3479</X>
+                  <Y>1110.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,91 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">87e1d9ef-088b-4d30-9dda-8a7448a17329</item>
+    <item name="Name" type_name="gh_string" type_code="10">Graft Tree</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Graft a data tree by adding an extra branch for every item.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="IncludeEmptyLists" type_name="gh_bool" type_code="1">true</item>
+        <item name="IncludeNullItems" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">6940fc32-fd35-456b-89a5-04bf617354d6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Graft Tree</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Graft</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>6307</X>
+              <Y>3797</Y>
+              <W>79</W>
+              <H>47</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>6337</X>
+              <Y>3821</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Data tree to graft</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f8252f6e-74a6-40cf-b463-a4769dce7fbc</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tree</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">fc5ff62e-57c4-4e2a-aa3b-7fb9509e5720</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6309</X>
+                  <Y>3799</Y>
+                  <W>13</W>
+                  <H>43</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6317</X>
+                  <Y>3820.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">2</item>
+            <item name="Description" type_name="gh_string" type_code="10">Grafted data tree</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">9a77c292-789f-45a1-9737-830f99663337</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tree</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SimplifyData" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6352</X>
+                  <Y>3799</Y>
+                  <W>32</W>
+                  <H>43</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6360</X>
+                  <Y>3820.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

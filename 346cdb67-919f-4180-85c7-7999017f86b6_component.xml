@@ -1,0 +1,39 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">f9b89a46-bc5d-4f7a-9a6f-134f93ac3af9</item>
+    <item name="Name" type_name="gh_string" type_code="10">Path Mapper</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Access" type_name="gh_int32" type_code="3">2</item>
+        <item name="Description" type_name="gh_string" type_code="10">Perform lexical operations on data trees.</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">346cdb67-919f-4180-85c7-7999017f86b6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Path Mapper</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Path Mapper</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">90af60ce-fb98-416f-b54b-74c933f143a7</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="2">
+        <chunk name="lexers">
+          <items count="3">
+            <item name="lexer_count" type_name="gh_int32" type_code="3">1</item>
+            <item name="source" index="0" type_name="gh_string" type_code="10">{A;B}</item>
+            <item name="target" index="0" type_name="gh_string" type_code="10">{B}</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-1305.223</X>
+              <Y>2298.994</Y>
+              <W>128</W>
+              <H>40</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

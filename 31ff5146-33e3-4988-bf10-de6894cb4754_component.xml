@@ -1,0 +1,162 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+    <item name="Name" type_name="gh_string" type_code="10">Text</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of text fragments</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">31ff5146-33e3-4988-bf10-de6894cb4754</item>
+        <item name="Name" type_name="gh_string" type_code="10">Text</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Txt</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">6d38a2c9-2c9f-4662-b77f-2bbe70ae9c87</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-114</X>
+              <Y>2122</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-88.21481</X>
+              <Y>2132.819</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">6</item>
+          </items>
+          <chunks count="6">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0;0}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">0</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">5</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Branch" index="1">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0;1}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">5</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">6</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Branch" index="2">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0;2}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">0</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">6</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Branch" index="3">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{1;0}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">0</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">9</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Branch" index="4">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{1;1}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">0</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">7</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Branch" index="5">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{1;2}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">7</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="2">
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">9</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

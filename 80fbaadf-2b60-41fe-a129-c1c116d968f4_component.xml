@@ -1,0 +1,134 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">71b5b089-500a-4ea6-81c5-2f960441a0e8</item>
+    <item name="Name" type_name="gh_string" type_code="10">PolyLine</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Create a polyline connecting a number of points.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">80fbaadf-2b60-41fe-a129-c1c116d968f4</item>
+        <item name="Name" type_name="gh_string" type_code="10">PolyLine</item>
+        <item name="NickName" type_name="gh_string" type_code="10">PLine</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>6814</X>
+              <Y>2337</Y>
+              <W>83</W>
+              <H>49</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>6845</X>
+              <Y>2362</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Polyline vertex points</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">443576e7-5d57-40e5-80aa-9a282a9bfdf7</item>
+            <item name="Name" type_name="gh_string" type_code="10">Vertices</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">bf129838-5f5a-434e-92d8-9bfd8af08cea</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6816</X>
+                  <Y>2339</Y>
+                  <W>14</W>
+                  <H>22</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6824.5</X>
+                  <Y>2350.25</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Close polyline</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">6df323b5-e338-4a88-8322-b5e778f67a9e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Closed</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6816</X>
+                  <Y>2361</Y>
+                  <W>14</W>
+                  <H>23</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6824.5</X>
+                  <Y>2372.75</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="boolean" type_name="gh_bool" type_code="1">true</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Resulting polyline</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">10d98855-6ae6-4d37-b0c0-c20ed4d1a1a6</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Polyline</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Pl</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6860</X>
+                  <Y>2339</Y>
+                  <W>35</W>
+                  <H>45</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6869.5</X>
+                  <Y>2361.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

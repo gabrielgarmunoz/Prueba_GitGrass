@@ -1,0 +1,36 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">3ede854e-c753-40eb-84cb-b48008f14fd4</item>
+    <item name="Name" type_name="gh_string" type_code="10">Text</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of text fragments</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">c78abd03-fb49-4574-96e7-3d6a84a1369a</item>
+        <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Text</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Txt</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">0161b27d-ae5c-4254-95e5-a14836d666bb</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>19008</X>
+              <Y>2108</Y>
+              <W>69</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>19052.02</X>
+              <Y>2118.059</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

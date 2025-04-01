@@ -1,0 +1,67 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">b1edb7f0-a224-4d0e-b543-d9296d1fa936</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">5e916f22-ca0e-2edc-ba5e-6e5cf533ddcc</item>
+    <item name="Name" type_name="gh_string" type_code="10">Connection String</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="12">
+        <item name="CommandTimeout" type_name="gh_string" type_code="10">20</item>
+        <item name="ConnectionTimeout" type_name="gh_string" type_code="10">5</item>
+        <item name="Connector" type_name="gh_string" type_code="10">MySQL</item>
+        <item name="Database" type_name="gh_string" type_code="10">api</item>
+        <item name="Description" type_name="gh_string" type_code="10">Formats a connection string. (MySQL, Oracle, PostgreSQL, SQL Server 2012)</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">131bfd37-b7d1-49a7-98cb-241e57d9fd60</item>
+        <item name="Name" type_name="gh_string" type_code="10">Connection String</item>
+        <item name="NickName" type_name="gh_string" type_code="10">CString</item>
+        <item name="Password" type_name="gh_string" type_code="10">Architechtures.2016</item>
+        <item name="Port" type_name="gh_string" type_code="10">3306</item>
+        <item name="Server" type_name="gh_string" type_code="10">192.168.1.180</item>
+        <item name="UserID" type_name="gh_string" type_code="10">botgenerator</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-3305</X>
+              <Y>1468</Y>
+              <W>77</W>
+              <H>62</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-3291</X>
+              <Y>1499</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">A MySQL connection string.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a7803a14-8994-4dcb-a4a5-0adb9820d68e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Connection String</item>
+            <item name="NickName" type_name="gh_string" type_code="10">CString</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>-3276</X>
+                  <Y>1470</Y>
+                  <W>46</W>
+                  <H>58</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>-3253</X>
+                  <Y>1499</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

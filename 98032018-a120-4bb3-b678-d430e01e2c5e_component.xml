@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">3e8ca6be-fda8-4aaf-b5c0-3c54c8bb7312</item>
+    <item name="Name" type_name="gh_string" type_code="10">Number</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of floating point numbers</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">98032018-a120-4bb3-b678-d430e01e2c5e</item>
+        <item name="Name" type_name="gh_string" type_code="10">Number</item>
+        <item name="NickName" type_name="gh_string" type_code="10">PARAM INTS</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">bda4c223-2128-4d08-8d4c-9daf0e358b5e</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>9613</X>
+              <Y>2383</Y>
+              <W>76</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>9651.821</X>
+              <Y>2393.461</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

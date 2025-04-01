@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">cb95db89-6165-43b6-9c41-5702bc5bf137</item>
+    <item name="Name" type_name="gh_string" type_code="10">Boolean</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of boolean values</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">66d7f5a0-7183-41ab-878c-135212a30b13</item>
+        <item name="Name" type_name="gh_string" type_code="10">Boolean</item>
+        <item name="NickName" type_name="gh_string" type_code="10">GEOMETRIA VALIDA</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">0ed6b0b6-2cd9-44fd-80c7-b646ea8589be</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>11156</X>
+              <Y>-79</Y>
+              <W>112</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>11212.62</X>
+              <Y>-68.92772</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

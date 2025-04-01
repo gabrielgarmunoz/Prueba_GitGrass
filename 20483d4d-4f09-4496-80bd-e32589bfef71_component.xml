@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="18">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;255</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">9e488b26-76e2-4f95-a374-ccbc2a02ea4c</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">27937883-f575-4c08-bd30-82c88706fbad</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">384f8f46-dae8-4875-81a9-8986c6d1bea1</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">9302d0f7-abec-4372-a330-a22171716e1f</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">f6d1bca9-c673-4b8d-85d3-c25d597029bc</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">28b65fba-426f-4a30-b6a4-17a5ad8e86c6</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">f24a693d-fea2-4a41-a8e3-a07bc4aac8bd</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">7342fc3b-9d56-4dd6-ba5c-0295f6928170</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">5290860f-d42a-436d-8d0b-3f2e5e3e0608</item>
+        <item name="ID" index="9" type_name="gh_guid" type_code="9">a999da6b-bbf7-439b-b130-f529e05bc50b</item>
+        <item name="ID" index="10" type_name="gh_guid" type_code="9">a066ac1f-ab77-4aa6-b4ea-81914b6e3f1b</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">11</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">20483d4d-4f09-4496-80bd-e32589bfef71</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Para eds esquina</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

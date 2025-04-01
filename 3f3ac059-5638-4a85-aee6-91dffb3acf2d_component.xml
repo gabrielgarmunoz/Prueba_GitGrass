@@ -1,0 +1,52 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
+    <item name="Name" type_name="gh_string" type_code="10">Panel</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">3f3ac059-5638-4a85-aee6-91dffb3acf2d</item>
+        <item name="Name" type_name="gh_string" type_code="10">Panel</item>
+        <item name="NickName" type_name="gh_string" type_code="10"></item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="UserText" type_name="gh_string" type_code="10">{33;0}</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="5">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-1460</X>
+              <Y>4906</Y>
+              <W>55</W>
+              <H>22</H>
+            </item>
+            <item name="MarginLeft" type_name="gh_int32" type_code="3">0</item>
+            <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
+            <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-1459.737</X>
+              <Y>4906.69</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PanelProperties">
+          <items count="7">
+            <item name="Colour" type_name="gh_drawing_color" type_code="36">
+              <ARGB>255;255;250;90</ARGB>
+            </item>
+            <item name="DrawIndices" type_name="gh_bool" type_code="1">true</item>
+            <item name="DrawPaths" type_name="gh_bool" type_code="1">true</item>
+            <item name="Multiline" type_name="gh_bool" type_code="1">true</item>
+            <item name="SpecialCodes" type_name="gh_bool" type_code="1">false</item>
+            <item name="Stream" type_name="gh_bool" type_code="1">false</item>
+            <item name="Wrap" type_name="gh_bool" type_code="1">true</item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,64 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">8ec86459-bf01-4409-baee-174d0d2b13d0</item>
+    <item name="Name" type_name="gh_string" type_code="10">Data</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic data</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">de0fad9d-fcd9-47f4-a2d8-99c1ab198174</item>
+        <item name="Name" type_name="gh_string" type_code="10">Data</item>
+        <item name="NickName" type_name="gh_string" type_code="10">BBDD</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-2913</X>
+              <Y>1454</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>-2887.764</X>
+              <Y>1464.006</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">2</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0;0}</item>
+              </items>
+              <chunks count="2">
+                <chunk name="Item" index="0">
+                  <items count="3">
+                    <item name="TypeName" type_name="gh_string" type_code="10">Grasshopper.Kernel.Types.GH_String</item>
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">2#Sc,D1#0,1-0,2-1-0#0-2,0-2#0_0_1_1/4,1_1_2_2/4#2.09_6.27,1.305_3.915#0,1#2#0-1,1-2#0-1,1-2#0,1/0,2/1##0,2,3,4#0-1/Sc,1-2/D1,3-4/Sc,3-4/D1#Viv 23 0,5,8,4,'x[0]==0,x[2]==0,x[3]==0,x[4]==0,-x[0]+x[1]&gt;=y[0]-e[0],-x[1]+x[2]&gt;=y[1]-e[1],-x[3]+x[4]&gt;=y[2]-e[2],-x[3]+x[4]&gt;=y[3]-e[3],-x[0]+x[1]&gt;=y[4],-x[1]+x[2]&gt;=y[5],-x[3]+x[4]&gt;=y[6],-x[3]+x[4]&gt;=y[7]'#XYParam#XYParam#XYParam#XYParam#XYParam#XYParam#XYParam#XYParam###1*Sc+1*D1#Viv 23 0;5;8;4;'x[0]==0;x[2]==0;x[3]==0;x[4]==0;-x[0]+x[1]&gt;=y[0]-e[0];-x[1]+x[2]&gt;=y[1]-e[1];-x[3]+x[4]&gt;=y[2]-e[2];-x[3]+x[4]&gt;=y[3]-e[3];-x[0]+x[1]&gt;=y[4];-x[1]+x[2]&gt;=y[5];-x[3]+x[4]&gt;=y[6];-x[3]+x[4]&gt;=y[7]'#23#XYUVParam#XYUVParam#XYUVParam#XYUVParam#XYUVParam#PeiR</item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <items count="3">
+                    <item name="TypeName" type_name="gh_string" type_code="10">Grasshopper.Kernel.Types.GH_String</item>
+                    <item name="null_string" type_name="gh_bool" type_code="1">false</item>
+                    <item name="string" type_name="gh_string" type_code="10">1##0,1-0#0-1,0-1#0_1_1_0/4,0_1_1_0/4#3.26_9.78#0#1#0-1#0-1#0,1/0#####XYParam#XYParam#XYParam#XYParam#XYParam#XYParam#XYParam#XYParam#####23</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,116 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">e3b1a10c-4d49-4140-b8e6-0b5732a26c31</item>
+    <item name="Name" type_name="gh_string" type_code="10">Set Difference</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Create the difference of two sets (the collection of objects present in A but not in B).</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">5bc80814-2cca-4019-870c-b3abf2ed41c9</item>
+        <item name="Name" type_name="gh_string" type_code="10">Set Difference</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Difference</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>10570</X>
+              <Y>474</Y>
+              <W>66</W>
+              <H>81</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>10601</X>
+              <Y>515</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Set to subtract from.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a6b2df22-7e10-4480-a412-0c50a721f636</item>
+            <item name="Name" type_name="gh_string" type_code="10">Set A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">26313896-8a4e-4852-81c0-73cd571664e0</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10572</X>
+                  <Y>476</Y>
+                  <W>14</W>
+                  <H>38</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10580.5</X>
+                  <Y>495.25</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Substraction set.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b14a798c-0329-4397-a1fb-bb075faf654b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Set B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">484f545a-b512-479b-9531-e3f0a15ec8a2</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10572</X>
+                  <Y>514</Y>
+                  <W>14</W>
+                  <H>39</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10580.5</X>
+                  <Y>533.75</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">The Set Difference of A minus B</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">811806e4-8266-40e9-a39f-dc275c6046ab</item>
+            <item name="Name" type_name="gh_string" type_code="10">Union</item>
+            <item name="NickName" type_name="gh_string" type_code="10">U</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10616</X>
+                  <Y>476</Y>
+                  <W>18</W>
+                  <H>77</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10625</X>
+                  <Y>514.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

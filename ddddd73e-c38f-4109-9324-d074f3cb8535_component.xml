@@ -1,0 +1,32 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">a8b97322-2d53-47cd-905e-b932c3ccd74e</item>
+    <item name="Name" type_name="gh_string" type_code="10">Button</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Button object with two values</item>
+        <item name="ExpressionNormal" type_name="gh_string" type_code="10">False</item>
+        <item name="ExpressionPressed" type_name="gh_string" type_code="10">True</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">ddddd73e-c38f-4109-9324-d074f3cb8535</item>
+        <item name="Name" type_name="gh_string" type_code="10">Button</item>
+        <item name="NickName" type_name="gh_string" type_code="10">LEER BBDD</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-3751</X>
+              <Y>1402</Y>
+              <W>124</W>
+              <H>22</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

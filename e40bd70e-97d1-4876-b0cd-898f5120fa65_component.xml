@@ -1,0 +1,54 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2e3ab970-8545-46bb-836c-1c11e5610bce</item>
+    <item name="Name" type_name="gh_string" type_code="10">Integer</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of integer numbers</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e40bd70e-97d1-4876-b0cd-898f5120fa65</item>
+        <item name="Name" type_name="gh_string" type_code="10">Integer</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Ed = 1/Viv = 0</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>12554</X>
+              <Y>2910</Y>
+              <W>83</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>12596.29</X>
+              <Y>2920.689</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Item" index="0">
+                  <items count="1">
+                    <item name="number" type_name="gh_int32" type_code="3">0</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

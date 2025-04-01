@@ -1,0 +1,38 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="21">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;255;255;255</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">c124d64e-34a3-4291-9690-e188e5dcb115</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">4fa4aa13-d139-4669-a6ca-c9ea414eaa0c</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">4dfbe18b-fe2b-4738-a73b-9a131febcdd0</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">d703aa22-7b93-4617-9e6a-627a015651c3</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">7e047c9b-8b5e-442d-901d-50262b5a0fad</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">63ba4493-113b-486c-842e-22816f35d504</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">961bbb9f-f1ba-4f81-ab50-be6a9c569814</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">d2257dc2-96a6-40e5-8227-c896d65cc27c</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">b3af16d1-8862-428e-9aa0-4b4c86d9fa95</item>
+        <item name="ID" index="9" type_name="gh_guid" type_code="9">465f87ed-f880-4318-bf16-d11070264513</item>
+        <item name="ID" index="10" type_name="gh_guid" type_code="9">e016d396-25d9-4691-b61c-4c7e43e365ad</item>
+        <item name="ID" index="11" type_name="gh_guid" type_code="9">56e71258-71af-4f46-9616-29311f49a5a9</item>
+        <item name="ID" index="12" type_name="gh_guid" type_code="9">dc47106d-5116-4b87-b503-103e18d2219d</item>
+        <item name="ID" index="13" type_name="gh_guid" type_code="9">346cdb67-919f-4180-85c7-7999017f86b6</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">14</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">be8b3798-f465-4aa5-8d06-4464e775f3ca</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">No usado en viviendas con esquinas</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

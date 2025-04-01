@@ -1,0 +1,164 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">922dc7e5-0f0e-4c21-ae4b-f6a8654e63f6</item>
+    <item name="Name" type_name="gh_string" type_code="10">Simplify Curve</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Simplify a curve.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">05167be7-dcc8-4ebe-9bc1-50a8c81e481b</item>
+        <item name="Name" type_name="gh_string" type_code="10">Simplify Curve</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Simplify</item>
+      </items>
+      <chunks count="6">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>18213</X>
+              <Y>1432</Y>
+              <W>65</W>
+              <H>67</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>18244</X>
+              <Y>1466</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to simplify</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3afc5e91-b2f1-4e64-9751-9a13d2b0c854</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">6bb9cb32-2117-4834-81b6-be55c3f6f2a0</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>18215</X>
+                  <Y>1434</Y>
+                  <W>14</W>
+                  <H>21</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>18223.5</X>
+                  <Y>1444.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Optional deviation tolerance (if omitted, the current document tolerance is used)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f4f19827-a970-4280-873b-a126e8be9fa7</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tolerance</item>
+            <item name="NickName" type_name="gh_string" type_code="10">t</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>18215</X>
+                  <Y>1455</Y>
+                  <W>14</W>
+                  <H>21</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>18223.5</X>
+                  <Y>1465.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Optional angle tolerance (if omitted, the current document tolerance is used)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">90c7d098-2e0f-4ebd-8a01-92ee3d888449</item>
+            <item name="Name" type_name="gh_string" type_code="10">Angle Tolerance</item>
+            <item name="NickName" type_name="gh_string" type_code="10">a</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>18215</X>
+                  <Y>1476</Y>
+                  <W>14</W>
+                  <H>21</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>18223.5</X>
+                  <Y>1486.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Simplified curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">cecf7698-1cd4-47b9-b326-ee10d8bb1e9b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>18259</X>
+                  <Y>1434</Y>
+                  <W>17</W>
+                  <H>31</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>18267.5</X>
+                  <Y>1449.75</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">True if curve was modified in any way</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">847ed8fc-2e5e-443f-867f-8e2aa6cb475e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Simplified</item>
+            <item name="NickName" type_name="gh_string" type_code="10">S</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>18259</X>
+                  <Y>1465</Y>
+                  <W>17</W>
+                  <H>32</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>18267.5</X>
+                  <Y>1481.25</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

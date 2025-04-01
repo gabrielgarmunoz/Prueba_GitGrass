@@ -1,0 +1,31 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2e78987b-9dfb-42a2-8b76-3923ac8bd91a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Boolean Toggle</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Boolean (true/false) toggle</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d2895c84-d682-4628-b7a5-92bdc51dc92c</item>
+        <item name="Name" type_name="gh_string" type_code="10">Boolean Toggle</item>
+        <item name="NickName" type_name="gh_string" type_code="10">EDIFICIOS(1) / VIVIENDAS(0)</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="ToggleValue" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>-4111</X>
+              <Y>1632</Y>
+              <W>208</W>
+              <H>22</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

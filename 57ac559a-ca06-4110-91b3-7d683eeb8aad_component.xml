@@ -1,0 +1,114 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">5b850221-b527-4bd6-8c62-e94168cd6efa</item>
+    <item name="Name" type_name="gh_string" type_code="10">Mass Addition</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Perform mass addition of a list of items</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">57ac559a-ca06-4110-91b3-7d683eeb8aad</item>
+        <item name="Name" type_name="gh_string" type_code="10">Mass Addition</item>
+        <item name="NickName" type_name="gh_string" type_code="10">MA</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>10738</X>
+              <Y>409</Y>
+              <W>64</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>10765</X>
+              <Y>431</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Input values for mass addition (either numbers or vectors)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">74f9067a-219b-45a0-bfa6-5451fe7ad632</item>
+            <item name="Name" type_name="gh_string" type_code="10">Input</item>
+            <item name="NickName" type_name="gh_string" type_code="10">I</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">f8bfc1e4-1389-4157-b492-21f640c61548</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10740</X>
+                  <Y>411</Y>
+                  <W>10</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10746.5</X>
+                  <Y>431</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Result of mass addition</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">0990c025-179d-41b4-b63f-6913576656d3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10780</X>
+                  <Y>411</Y>
+                  <W>20</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10790</X>
+                  <Y>421</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">List of partial results</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">59ce27d5-c492-4d3f-80a5-58914f3657c6</item>
+            <item name="Name" type_name="gh_string" type_code="10">Partial Results</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Pr</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>10780</X>
+                  <Y>431</Y>
+                  <W>20</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>10790</X>
+                  <Y>441</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

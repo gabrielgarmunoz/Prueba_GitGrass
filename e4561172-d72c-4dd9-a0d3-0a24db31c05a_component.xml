@@ -1,0 +1,33 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="16">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;0</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">a31c2540-4092-4aa8-9ed3-0af9d950a55d</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">56846ff2-36ae-4590-ba6b-9ee772c09684</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">19c13413-8209-4d85-a124-9db81996db21</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">70e7644c-ccab-4db0-abd7-ea54cc4b708d</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">98574abe-778b-42e8-8444-a55354a8442b</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">c15e849a-eff5-40be-9ef8-2eda1b3463c7</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">766cce42-d169-4fe1-b023-24ae5789ea18</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">65b71d1e-e0eb-4e29-b602-24d04da98881</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">50508933-0de1-4038-a731-c8072db1febc</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">9</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e4561172-d72c-4dd9-a0d3-0a24db31c05a</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Obtener Polilíneas Objetivo</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
