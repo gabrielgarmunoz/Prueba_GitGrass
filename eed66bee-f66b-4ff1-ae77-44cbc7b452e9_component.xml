@@ -39,15 +39,14 @@
           </items>
           <chunks count="4">
             <chunk name="InputParam" index="0">
-              <items count="8">
+              <items count="7">
                 <item name="Access" type_name="gh_int32" type_code="3">1</item>
                 <item name="Description" type_name="gh_string" type_code="10">Base list</item>
                 <item name="InstanceGuid" type_name="gh_guid" type_code="9">0ad148e6-c1dc-4f74-829f-affa0f4c575f</item>
                 <item name="Name" type_name="gh_string" type_code="10">List</item>
                 <item name="NickName" type_name="gh_string" type_code="10">L</item>
                 <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                <item name="Source" index="0" type_name="gh_guid" type_code="9">d2ad423f-b25b-477f-b65d-27772aa00c12</item>
-                <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
               </items>
               <chunks count="1">
                 <chunk name="Attributes">
