@@ -1,0 +1,86 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">dca05f6f-e3d9-42e3-b3bb-eb20363fb335</item>
+    <item name="Name" type_name="gh_string" type_code="10">Text Length</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Get the length (character count) of some text</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">86e1bc92-3e5b-4ba3-a432-cb9cef734291</item>
+        <item name="Name" type_name="gh_string" type_code="10">Text Length</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Len</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7514</X>
+              <Y>-3240</Y>
+              <W>62</W>
+              <H>37</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7544</X>
+              <Y>-3221</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Text to measure.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">a35218ad-a43b-41be-a7c9-661653d6c33f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Text</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">36eb0bbc-812d-4f75-b827-52cd3e3a9db2</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7516</X>
+                  <Y>-3238</Y>
+                  <W>13</W>
+                  <H>33</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7524</X>
+                  <Y>-3221.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Number of characters</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f9a2f3e9-4bba-4cc8-a6e1-5ece0ffa0a00</item>
+            <item name="Name" type_name="gh_string" type_code="10">Length</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7559</X>
+                  <Y>-3238</Y>
+                  <W>15</W>
+                  <H>33</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7566.5</X>
+                  <Y>-3221.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
