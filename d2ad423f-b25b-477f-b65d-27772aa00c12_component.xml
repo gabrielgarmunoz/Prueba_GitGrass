@@ -19,8 +19,8 @@
         <chunk name="Attributes">
           <items count="5">
             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-              <X>-3978</X>
-              <Y>1079</Y>
+              <X>-3975</X>
+              <Y>1089</Y>
               <W>131</W>
               <H>173</H>
             </item>
@@ -28,8 +28,8 @@
             <item name="MarginRight" type_name="gh_int32" type_code="3">0</item>
             <item name="MarginTop" type_name="gh_int32" type_code="3">0</item>
             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-              <X>-3977.968</X>
-              <Y>1079.029</Y>
+              <X>-3974.181</X>
+              <Y>1089.127</Y>
             </item>
           </items>
         </chunk>
